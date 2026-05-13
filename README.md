@@ -29,7 +29,7 @@ The application provides:
 * Moving average calculations
 * Smart validation & symbol suggestions
 
-The project was designed with clean architecture principles and modular backend structure for scalability and maintainability.
+The project was designed using modular architecture principles for better scalability, maintainability, and clean backend separation.
 
 ---
 
@@ -52,12 +52,12 @@ The project was designed with clean architecture principles and modular backend 
 
 * Fetch live stock information
 * Display current price & previous close
-* Market cap & trading volume
+* Market cap & trading volume metrics
 
 ## 📊 Historical Data Visualization
 
-* Interactive price trend charts
-* Historical OHLCV data analysis
+* Interactive stock trend charts
+* Historical OHLCV analysis
 * Dynamic time period selection
 
 ## 📉 Moving Average Analysis
@@ -66,7 +66,7 @@ The project was designed with clean architecture principles and modular backend 
 * Trend smoothing visualization
 * Improved market trend analysis
 
-## 🔍 Smart Symbol Validation
+## 🔍 Smart Validation System
 
 * Automatic uppercase normalization
 * Invalid symbol handling
@@ -100,6 +100,8 @@ StockMarketProject/
 ├── charts/
 │   ├── charts.py
 │
+├── screenshots/
+│
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -129,27 +131,33 @@ Streamlit Dashboard
 
 ## 📊 Dashboard
 
-*Add screenshots here*
-
-```md
-![Dashboard](screenshots/dashboard.png)
-```
+|                   Main Dashboard                  |           Sidebar Controls          |
+| :-----------------------------------------------: | :---------------------------------: |
+| ![Dashboard Main](screenshots/dashboard_main.png) | ![Sidebar](screenshots/sidebar.png) |
 
 ---
 
 ## 📈 Price Trend Visualization
 
-```md
-![Charts](screenshots/charts.png)
-```
+|                 Price Trend                 |                   Moving Average                  |
+| :-----------------------------------------: | :-----------------------------------------------: |
+| ![Price Trend](screenshots/price_trend.png) | ![Moving Average](screenshots/moving_average.png) |
 
 ---
 
-## 📉 Historical Data Table
+## 📊 Volume Analysis
 
-```md
-![Historical Data](screenshots/table.png)
-```
+|                 Trading Volume                |
+| :-------------------------------------------: |
+| ![Volume Chart](screenshots/volume_chart.png) |
+
+---
+
+## 📉 Historical Data & Metrics
+
+|                    Historical Table                   |            Stock Metrics            |
+| :---------------------------------------------------: | :---------------------------------: |
+| ![Historical Table](screenshots/historical_table.png) | ![Metrics](screenshots/metrics.png) |
 
 ---
 
@@ -166,7 +174,7 @@ Streamlit Dashboard
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stock-market-analysis-system.git
+git clone https://github.com/Ahmed1Atef1/stock-market-analysis-system.git
 cd stock-market-analysis-system
 ```
 
@@ -203,10 +211,10 @@ streamlit run app.py
 # 🔮 Future Improvements
 
 * AI-based stock prediction
-* Watchlist functionality
 * Portfolio management
 * Live market updates
 * Financial news integration
+* Watchlist support
 * User authentication system
 
 ---
@@ -216,6 +224,8 @@ streamlit run app.py
 ### Ahmed Atef
 
 Backend Development • Data Processing • API Integration • Visualization
+
+GitHub: https://github.com/Ahmed1Atef1
 
 ---
 
